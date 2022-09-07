@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+
+    --bgcolor :#000000;
+    --fs1 : 20px;
+
+    --fs3 : 45px;
+    --bgfont : 50px;
+    --btncolor : #7929FF;
+    --btncolor2 : #BF418D;
+
+    --text-color : #9150FF;
+
+    --circle-color1 : #7929FF;
+    --circle-color2 :#FFA24D;
+    --circle-color3 : #BF418D;
+    --circle-color4 : #4183BF;
+
+    --form-bg : #7929FF;
+}

@@ -1,0 +1,435 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blogs{
+    width: 100%;
+    margin-top: 1rem;
+
+    min-height: 100vh;
+    background: url(../image/earthcover.png);
+    background-position:center;
+    background-size: auto;
+    background-repeat: no-repeat;
+   
+  
+}
+.image-container{
+  
+    position: absolute;
+
+    width:30%;
+    height: 30%;
+    top: 25%;
+}
+
+.vectors{
+
+    width: 38% !important;
+    
+}
+
+.vector{
+
+    width: 100% !important;
+    
+}
+
+
+.title1{
+    font-size: var(--bgfont);
+    color: #fff;
+    /* line-height: 20px; */
+    
+    font-weight: bold !important;
+}
+
+.art{
+    color:  var(--text-color) !important;
+    font-weight: bold !important;
+}
+
+.text-content{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.art-log{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5rem;
+}
+.artist-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7rem;
+  
+}
+
+.dialogue-log{
+    width: 60%;
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    text-align: center;
+}
+.title2{
+    font-size: var(--bgfont);
+    color: #fff;
+    
+    font-weight: bold !important;
+}
+
+.artist{
+    color: var(--text-color) !important;
+    font-weight: bold !important;
+    
+}
+
+.dialogue{
+
+   
+    width: 81%;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.63);
+    margin-left: 6.5rem;
+
+}
+.dialo{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.63);
+
+}
+
+
+/* Service  */
+
+.service{
+    font-family: 'Pacifico', cursive;
+    font-size: var(--fs3);
+    color: #fff;
+    font-weight: 400;
+    
+}
+
+.cards{
+    width: 100%;
+    min-height: 100%;
+    padding: 3rem;
+    background: #000000;
+}
+
+.header-span{
+    display: block;
+       
+}
+
+.service-btn{
+    width: 130px;
+    background: var(--btncolor) !important;
+    border-radius: 12px;
+    font-weight: bold !important;
+    color:  #ffffff;
+    
+}
+
+.service-btn2{
+    width: 130px;
+    background-color: var(--btncolor2) !important;
+    border-radius: 12px;
+    font-weight: bold !important;
+    color:  #ffffff;
+    
+    
+}
+
+/* About us */
+
+.bgs{
+    background: #000000;
+}
+
+.about-image{
+    width: 85% !important;
+    height: 85% !important;
+    margin: 2.5rem !important;
+   
+}
+.about-image2{
+    width: 75% !important;
+    height: 75% !important;
+ 
+ 
+    
+}
+
+.image-undraw{
+    width: 90% !important;
+}
+
+.images-about{
+    width: 100% !important;
+}
+
+/* Mini Project */
+
+
+
+
+
+.covers-mini{
+    
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background: url(../image/minipj.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.margint{
+    
+}
+
+.fonts{
+    
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+  
+}
+
+
+.box{
+    width:180px;
+     height:150px;  
+    border:solid 5px #4DEAFF;
+    border-color:#4DEAFF transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    top: 29%;
+    left: 28%;
+    position: absolute;
+  }
+
+.arrow{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.oval {
+ 
+    width: 1000px;
+    height: 750px;
+
+    /* border: 10px solid #ffff; */
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-color: transparent transparent transparent transparent; 
+     
+    
+  }
+
+
+.circle1{
+    width:  30px;
+    height: 30px;
+    border-radius: 50px;
+    background: var(--circle-color1);
+    position: absolute;
+    bottom: 14%;
+    left: 10%;
+   
+    
+}
+
+
+.circle2{
+    width:  30px;
+    height: 30px;
+    border-radius: 50px;
+    background: var(--circle-color2);
+    position: absolute;
+    bottom: -1%;
+    left: 30%;
+    /* top: ; */
+    
+}
+
+
+.circle3{
+    width:  30px;
+    height: 30px;
+    border-radius: 50px;
+    background: var(--circle-color3);
+    position: absolute;
+    bottom: -3%;
+    left: 60%;
+    /* top: ; */
+    
+}
+
+
+.circle4{
+    width:  30px;
+    height: 30px;
+    border-radius: 50px;
+    background: var(--circle-color4);
+    position: absolute;
+    bottom: 11%;
+    right: 13%;
+    /* bottom: 13%;
+    left: 10%; */
+    /* top: ; */
+    
+}
+.progress-curve{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 400px;
+ 
+    border: 10px solid #fff;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    position: relative;
+    border-color: transparent transparent #fff transparent; 
+}
+
+.game1{
+    position: absolute;
+    left: 11%;
+    top: 59%;
+    
+}
+.game1 span{
+    display: block;
+    font-size: var(--fs1);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-style: italic;
+}
+.game1 strong{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+
+.game2{
+    position: absolute;
+    left: 25%;
+    bottom: -25%;
+    
+}
+.game2 span{
+    display: block;
+    font-size: var(--fs1);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-style: italic;
+}
+.game2 strong{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+
+.game3{
+    position: absolute;
+    left: 60%;
+    bottom: 10%;
+    
+}
+
+.game3 span{
+    display: block;
+    font-size: var(--fs1);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-style: italic;
+}
+.game3 strong{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+
+
+.game4{
+    position: absolute;
+    right: 8%;
+    bottom: -13%;
+    
+}
+
+.game4 span{
+    display: block;
+    font-size: var(--fs1);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-style: italic;
+}
+.game4 strong{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+
+/* Contact Us */
+
+.contacts{
+
+    width: 100%;
+    height: 100%;
+    background: url(../image/contact.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    /* position: relative; */
+
+}
+
+.form-container{
+    width: 400px;
+    height: 500px;
+    background: var(--form-bg);
+    padding: 1.5rem;
+}
+
+
+.inputs{
+    
+}   
+
+
